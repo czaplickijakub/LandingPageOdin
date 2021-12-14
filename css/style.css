@@ -1,5 +1,4 @@
 .body {
-    margin: 0;
     font-family: monospace, sans-serif;
     display: flex;
     flex-flow: column wrap;
@@ -12,18 +11,19 @@
 }
 
 .header {
-    padding: 0px;
-    margin: 0;
+    padding: 10px 60px;
+    margin: 0px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    flex: 1;
+    flex: auto;
 }
 
 .headerLeft {
     font-size: 24px;
     font-weight: bold;
 }
+
 
 ul {
     display:flex;
@@ -47,7 +47,9 @@ img {
 
 .bodyOne {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 0;
+    padding-left: none;
 }
 
 .sectionOne {
@@ -58,6 +60,7 @@ img {
     flex-flow: column wrap;
     justify-content: space-around;
     align-items: flex-start;
+    gap: 10px;
 }
 
 .oneHeader,
@@ -72,6 +75,21 @@ img {
 
 .oneSubtext {
     font-size: 10px;;
+}
+
+.button {
+    padding: 5px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    width: 85px;
+    outline: none;
+}
+
+.buttonOne {
+    background-color: #0c63f0;
+    color: white;
+    border-radius: 9px;
 }
 
 .footer {
