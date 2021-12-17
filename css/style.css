@@ -116,7 +116,10 @@ a {
 
 .infoPics {
     border: 5px outset #03a1fc;
-    border-radius: 12px;;
+    border-radius: 12px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .textInfo {
