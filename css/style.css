@@ -74,6 +74,8 @@ a {
     display: flex;
     justify-content: flex-start;
     flex: 1;
+    max-width: 70%;
+    flex-wrap: wrap;
 }
 
 .button {
