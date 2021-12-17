@@ -40,16 +40,12 @@ a {
     color: white;
 }
 
-img {
-    height: 100px;
-    width: 100px;
-}
-
 .bodyOne {
     display: flex;
     justify-content: space-between;
     margin: 0;
     padding-left: none;
+    align-items: center;
 }
 
 .sectionOne {
@@ -90,6 +86,42 @@ img {
     background-color: #0c63f0;
     color: white;
     border-radius: 9px;
+}
+
+.bodyTwo {
+    display: flex;
+    flex-direction: column;
+}
+
+.twoHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 30px;
+}
+
+.infoContainer {
+    gap: 50px;
+    padding: 40px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.infoPics {
+    border: 5px outset #03a1fc;
+    border-radius: 12px;;
+}
+
+.textInfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 100px;
 }
 
 .footer {
