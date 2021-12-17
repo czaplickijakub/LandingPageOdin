@@ -108,10 +108,9 @@ a {
 }
 
 .infoContainer {
-    gap: 50px;
     padding: 40px 0px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -121,7 +120,7 @@ a {
     border-radius: 12px;
     display:flex;
     justify-content: center;
-    align-items: center;
+    align-items: space-around;
 }
 
 .textInfo {
