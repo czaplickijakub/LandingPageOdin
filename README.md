@@ -6,4 +6,4 @@
 - Flex box container positioning
 - Usage of html classes
 
-### The website may be accessed [here] (https://czaplickijakub.github.io/Sample_LandingPage/). 
+### The website may be accessed [here](https://czaplickijakub.github.io/Sample_LandingPage/). 
