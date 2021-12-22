@@ -42,7 +42,7 @@ a {
 
 .bodyOne {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 0;
     padding-left: none;
     align-items: center;
@@ -50,7 +50,7 @@ a {
 
 .sectionOne {
     margin: 0;
-    padding: 100px;
+    padding: 7.5%;
     display: flex;
     flex: 1;
     flex-flow: column wrap;
@@ -61,7 +61,7 @@ a {
 
 .oneHeader,
 .oneSubtext {
-    color: white;
+    color: #F9FAF8;
 }
 
 .oneHeader {
@@ -78,6 +78,10 @@ a {
     flex-wrap: wrap;
 }
 
+.imgContainerOne {
+    padding-right: 5%;
+}
+
 .button {
     padding: 5px;
     border: none;
@@ -88,7 +92,7 @@ a {
 }
 
 .buttonOne {
-    background-color: #0c63f0;
+    background-color: #3882F6;
     color: white;
     border-radius: 9px;
 }
@@ -102,13 +106,13 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 18px;
+    font-size: 25px;
     font-weight: bold;
     padding: 30px;
 }
 
 .infoContainer {
-    padding: 10px 0px;
+    padding-bottom: 30px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -116,11 +120,18 @@ a {
 }
 
 .infoPics {
-    border: 5px outset #03a1fc;
+    border: 5px outset #3882F6;
     border-radius: 12px;
     display:flex;
     justify-content: center;
-    align-items: space-around;
+    margin: 10px;
+    flex: 1;
+}
+
+.info{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 10px;
 }
 
 .textInfo {
@@ -129,6 +140,83 @@ a {
     justify-content: center;
     flex-wrap: wrap;
     max-width: 250px;
+}
+
+.bodyThree{
+    background-color: #E5E7EB;
+    padding: 80px 150px;
+    display: flex;
+    flex-flow: column wrap;
+    flex: 1;
+}
+
+.textThree{
+    font-size: 36px;
+    color: #1F2937;
+    font-family: italic;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 1;
+}
+
+.author {
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bodyFour {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 15%;
+    flex: 1;
+}
+
+.bookmark {
+    background-color: #3882F6;
+    padding: 30px 8%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    flex: 1;
+}
+
+.bookmarkSection1 {
+    color:white;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 5px;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex: 1;
+}
+
+.fourHeader {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.fourSubtext {
+    font-size: 11px;
+}
+
+.buttonBook {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 5px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 1 0;
+    white-space: nowrap;
 }
 
 .footer {
