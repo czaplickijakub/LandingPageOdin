@@ -1,3 +1,4 @@
+/* CSS for the first website block*/
 .body {
     font-family: monospace, sans-serif;
     display: flex;
@@ -100,6 +101,8 @@ a {
     border-radius: 9px;
 }
 
+/* CSS for the second website block*/
+
 .bodyTwo {
     display: flex;
     flex-direction: column;
@@ -146,6 +149,8 @@ a {
     max-width: 250px;
 }
 
+/* CSS for the third website block*/
+
 .bodyThree{
     background-color: #E5E7EB;
     padding: 80px 150px;
@@ -170,6 +175,8 @@ a {
     display: flex;
     justify-content: flex-end;
 }
+
+/* CSS for the fourth website block*/
 
 .bodyFour {
     background-color: white;
@@ -222,6 +229,8 @@ a {
     flex: 0 1 0;
     white-space: nowrap;
 }
+
+/* CSS for the footer block*/
 
 .footer {
     padding: 16px;
