@@ -5,3 +5,5 @@
 - Designing a layout based off of a photo
 - Flex box container positioning
 - Usage of html classes
+
+### The website may be accessed [here] (https://czaplickijakub.github.io/Sample_LandingPage/). 
