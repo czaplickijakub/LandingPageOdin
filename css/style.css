@@ -8,7 +8,7 @@
 .header,
 .footer,
 .bodyOne {
-    background-image: url(./photos/artDeco.jpg);
+    background-image: url("https://github.com/czaplickijakub/Sample_LandingPage/blob/main/photos/artDeco.jpg?raw=true");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -166,7 +166,7 @@ a {
 /* CSS for the third website block*/
 
 .bodyThree{
-    background-image: url(./photos/artDecoInvert.jpg);
+    background-image: url("https://github.com/czaplickijakub/Sample_LandingPage/blob/main/photos/artDecoInvert.jpg?raw=true");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
