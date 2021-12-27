@@ -216,7 +216,7 @@ a {
 }
 
 .bookmark {
-    background-image: url(photos/geometricButton.jpg);
+    background-color: #3882F6;
     padding: 35px 6%;
     display: flex;
     flex-flow: row wrap;
@@ -246,7 +246,8 @@ a {
 }
 
 .buttonBook {
-    background-color: #3882F6;
+   /*background-color: #3882F6;*/
+    background-image: url("");
     color: white;
     border-radius: 5px;
     border: 1px solid white;
