@@ -9,6 +9,7 @@
 ### The website may be accessed [here](https://czaplickijakub.github.io/Sample_LandingPage/). 
 
 Photos used:
+
 https://previews.123rf.com/images/amovitania/amovitania1905/amovitania190500035/125471536-art-deco-pattern-seamless-black-and-gold-background-.jpg
 
 https://www.indiewire.com/wp-content/uploads/2016/08/20140216-131646.jpg
