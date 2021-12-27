@@ -8,7 +8,7 @@
 .header,
 .footer,
 .bodyOne {
-    background-image: url(/photos/artDeco.jpg);
+    background-image: url(photos/artDeco.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -166,7 +166,7 @@ a {
 /* CSS for the third website block*/
 
 .bodyThree{
-    background-image: url(/photos/artDecoInvert.jpg);
+    background-image: url(photos/artDecoInvert.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
