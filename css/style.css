@@ -58,9 +58,9 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
     margin: 0;
     padding-left: none;
-    align-items: center;
 }
 
 .sectionOne {
