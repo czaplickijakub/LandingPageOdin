@@ -5,6 +5,14 @@
     flex-flow: column wrap;
 }
 
+.bodyOne {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+
 .header,
 .footer,
 .bodyOne {
@@ -14,9 +22,6 @@
     background-size: cover;
     background-attachment: fixed;
 }
-.bodyOne {
-    height: 100vh;
-}
 
 .header {
     padding: 10px 5em;
@@ -25,7 +30,6 @@
     flex-flow: row wrap;
     align-items: center;
     justify-content: space-between;
-    flex: auto;
 }
 
 .headerLeft {
@@ -55,6 +59,8 @@ a {
 }
 
 .bodySubOne {
+    padding-top: 20vh;
+    padding-bottom: 20vh;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -70,7 +76,7 @@ a {
     flex: 1;
     flex-flow: column wrap;
     justify-content: space-around;
-    align-items: flex-start;
+    align-items: center;
     gap: 10px;
 }
 
